@@ -1,0 +1,19 @@
+# dependencies
+node_modules/
+
+# build output
+dist/
+build/
+*.tsbuildinfo
+
+# env — segredos locais, nunca versionar (server/.env.example fica versionado)
+.env
+.env.local
+
+# editor/OS
+.DS_Store
+Thumbs.db
+
+# logs
+npm-debug.log*
+*.log
